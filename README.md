@@ -4,9 +4,9 @@ Java object models and Android coursework apps for property listings and multi-v
 
 ## Original coursework
 
-- CS 3443-004 — Application Programming, Fall 2024
+- Application Programming
 
-Originally completed at the University of Texas at San Antonio during the terms above and imported to GitHub later. This repository preserves the submitted implementation; repository documentation and import housekeeping were added separately.
+Originally completed at the University of Texas at San Antonio and imported to GitHub later. This repository retains the coursework implementation with documented maintenance fixes and demonstration assets.
 
 **Languages and technologies:** Java, Android, XML resources, Gradle Kotlin DSL.
 
@@ -32,11 +32,17 @@ Originally completed at the University of Texas at San Antonio during the terms 
 
 ## Running the source
 
-Compile the two Java exercises independently. Open each Android project in Android Studio with the matching SDK and Gradle version from its build files. The wrapper JAR and bitmap launcher icons are excluded from this code-only import and must be restored through the toolchain/resources before a complete build.
+See DEVELOPMENT.md for standalone Java and Android build commands. Official wrappers, fictional CSV inputs, and original vector demonstration images are now supplied.
 
 ## Scope and limitations
 
-- The character catalog expects barbies.csv and kens.csv, which were omitted from this code-only import. Its Java source compiles.
-- This is coursework with supplied starter/test scaffolding, not four independently shipped products.
+- Demonstration data and vector images replace unavailable original course assets.
+- Android builds compile in CI; interactive device behavior needs separate testing.
 
 Only source code, build configuration, and required text inputs are included. Written submissions, assignment instructions, PDFs, videos, generated outputs, binary builds, and private configuration are omitted. Anonymized contributor labels and supplied-code comments retain the distinction between submitted work and scaffolding. No license for course-provided material is inferred.
+
+## Development and reuse
+
+See [DEVELOPMENT.md](DEVELOPMENT.md) for reproducible checks and known archival dependencies, [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidance, and [SECURITY.md](SECURITY.md) for private reports.
+
+Reuse terms and provenance are documented in [NOTICE.md](NOTICE.md) and [LICENSE](LICENSE). The maintenance license does not grant rights to original course or team material.

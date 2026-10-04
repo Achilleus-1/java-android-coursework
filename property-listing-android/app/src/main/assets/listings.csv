@@ -1,0 +1,4 @@
+rp1, Example Residential A, 250000, 75, 3, 2
+rp2, Example Residential B, 300000, 100, 4, 2.5
+cp1, Example Commercial A, 500000, Mixed, 4, 12
+cp2, Example Commercial B, 650000, Retail, 6, 18

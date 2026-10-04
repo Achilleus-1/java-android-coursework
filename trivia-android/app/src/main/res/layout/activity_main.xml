@@ -19,7 +19,7 @@
         android:id="@+id/main_image"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:src="@drawable/babyjack"/>
+        android:src="@drawable/babyjack" android:contentDescription="@string/app_name"/>
 
     <Button
         android:id="@+id/trick_button"

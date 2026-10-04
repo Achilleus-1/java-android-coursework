@@ -1,0 +1,21 @@
+[
+  {
+    "compiler": "javac",
+    "sources": [
+      "address-book/AddressBook.java",
+      "address-book/Contact.java",
+      "address-book/FamilyMember.java",
+      "address-book/Lab1.java",
+      "address-book/WorkContact.java"
+    ]
+  },
+  {
+    "compiler": "javac",
+    "sources": [
+      "character-catalog/src/Lab2/Character.java",
+      "character-catalog/src/Lab2/Lab2.java",
+      "character-catalog/src/Lab2/ProductCollection.java",
+      "character-catalog/src/module-info.java"
+    ]
+  }
+]

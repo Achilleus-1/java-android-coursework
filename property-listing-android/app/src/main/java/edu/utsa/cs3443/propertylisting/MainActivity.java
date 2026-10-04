@@ -59,16 +59,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         //simpler for if else than a switch for me
         if (view.getId() == R.id.btnProperty1)
         {
-            location = "123 River Rd - San Antonio - TX";
+            location = "Example Residential A";
         }
             else if (view.getId() == R.id.btnProperty2) {
-            location = "23412 Hill St - San Antonio - TX";
+            location = "Example Residential B";
         }
             else if (view.getId() == R.id.btnProperty3) {
-            location = "34 Deer Ct - San Antonio - TX";
+            location = "Example Commercial A";
         }
          else if (view.getId() == R.id.btnProperty4) {
-            location = "109 Medina St - Boerne - TX";
+            location = "Example Commercial B";
         }
 
         // shows prices when done

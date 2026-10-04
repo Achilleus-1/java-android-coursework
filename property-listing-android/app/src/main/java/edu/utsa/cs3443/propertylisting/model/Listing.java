@@ -25,7 +25,7 @@ public class Listing {
                 String[] data = line.split(", ");
 
                 // just debugging
-                System.out.println(line);
+                // Do not echo record contents into diagnostic logs.
 
 
                 //not used really
